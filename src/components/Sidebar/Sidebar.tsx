@@ -20,7 +20,7 @@ const Sidebar = ({open}:{open:boolean}) => {
         <div className = 'flex flex-col gap-[20px] w-full items-center justify-center'>
             <img src={ImgProfile} alt="Donna Hope B. Banzuela" loading = 'lazy' width = '120px' height = '120px'/>
             <div className = 'flex flex-col gap-[10px]'>
-                <Typography type = 'h1' className = 'text-[18px] font-bold'>Donna Hope B. Banzuela</Typography>
+                <Typography type = 'h1' className = 'text-[18px] font-bold'>Donna Hope B. Barro</Typography>
                 <Typography type = 'body' className = 'text-[14px] text-[var(--text-secondary)]'>I'm a UI/UX Developer and Designer</Typography>
             </div>
             <ButtonGroup className = 'gap-[8px] shrink-0 w-full'>
