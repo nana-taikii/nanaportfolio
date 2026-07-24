@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import "@heroui/styles"; 
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
+:root{
+  --main-dark:#2C2B2B;
+  --main-white:#FFFFFF;
+  --main-gray:#F4F4F4;
+  --main-lightGray:#FAFAFA;
+  --main-darkBlue:#242A32;
+
+  --text-white:#FFFFFF;
+  --text-black:#2D2D2D;
+  --text-secondary:#676767;
+
+  --gradient-blue:linear-gradient(92deg, #2D2D2D,  3.2%, #303973 99.03%);
+
+  --box-shadow1:0 4px 4px 0 rgba(230, 227, 227, 0.25);
+  --box-shadow2:0 10px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px !important;
+
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(10, 2, 87, 0.2);
+  border-radius: 15px;
+  background-clip: padding-box;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(10, 2, 87, 0.3);
+  transition:all 0.3s ease-in-out;
+
+}
+
+::-webkit-scrollbar-thumb:active {
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+
+*{
+  font-family:'Satoshi';
+  box-sizing:border-box;
+}
+
+.c-sidebar {
+ 
+  width: 400px;
+  flex-shrink: 0;
+  transform: translateX(0);
+  visibility: visible;
+  background-color: var(--main-white);
+  position:absolute;
+  left:0px;
+  top:0px;
+  overflow:hidden;
+  height:100dvh;
+}
+
+.c-sidebar__content{
+  overflow-y:auto;
+  flex:1;
+  padding:30px 30px 0px 30px;
+  height:100%;
+}
+
+.c-layout {
+  margin-left: 400px;
+  z-index:2;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.c-layout-sidebar {
+  margin-left: 0px;
+  z-index:2;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+ .c-icon__link{
+   @apply rounded-[8px] bg-[var(--main-gray)] py-[9px] px-[12px] w-[43px] h-[38px];
+}
+
+.c-section-title{
+  @apply text-[16px] font-bold
+}
+
+@layer components{
+  .typography{
+    color:var(--text-black) ;
+    line-height:100%;
+  }
+  .button-group{
+    border-radius:none;
+  }
+  .button.c-dark-btn{
+    background-color:var(--main-dark);
+    border-radius:8px;
+    padding:8px 15px;
+    height:38px;
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+    min-width:120px;
+  }
+  .button-group--horizontal .button:first-child{
+    border-start-start-radius:8px;
+    border-end-start-radius:8px;
+  }
+  .link{
+    text-decoration:none;
+  }
+  .link:hover{
+    text-decoration:none;
+  }
+  .link:active{
+    text-decoration:none;
+  }
+   .link:focus{
+    text-decoration:none;
+  }
+}
+
+
+/*animations*/
+
+@keyframes fadeLeft{
+  from{
+    transform:translateX(20px)
+  }
+  to{
+    transform:translateX(0)
+  }
+}
