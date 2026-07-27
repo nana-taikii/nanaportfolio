@@ -1,18 +1,18 @@
-import type {ComponentType, SVGProps} from "react";
+import type { ComponentType, SVGProps } from "react";
 
-import {Button, Drawer} from "@heroui/react";
+import { Button, Drawer } from "@heroui/react";
 import HeroBanner from "../../components/HeroBanner/HeroBanner";
 import Projects from "../../components/Projects/Projects";
+import { useScreenSize } from "../../utils/useScreenSize";
+import ProjectsSp from "../../components/Projects/ProjectsSp";
 
 export function Home() {
- 
+  const { windowWidth } = useScreenSize();
 
   return (
     <>
-     <HeroBanner/>
-      <Projects/>
+      <HeroBanner />
+      {windowWidth >= 768 ? (<Projects />) : <ProjectsSp/>}
     </>
-   
-
   );
 }
