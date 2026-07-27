@@ -23,8 +23,8 @@ const UIUXProjects = () => {
             max-[650px]:grid-cols-1
 
             ">
-        {uiuxProjects.map((project) => (
-            <div key = {project.id} className="
+        {uiuxProjects.map((project, index) => (
+            <div key = {project.id} className={`
             rounded-[8px]
             overflow-hidden
             bg-[var(--main-white)]
@@ -32,7 +32,10 @@ const UIUXProjects = () => {
             max-w-[500px]
             max-[950px]:w-full
             max-[650px]:max-w-full
-            " onClick = {() => handleOpenUIUXProject(project.id)}>
+            animation-fadeUp
+            `} 
+            style = {{animationDelay:`${index * 0.1}s`}}
+            onClick = {() => handleOpenUIUXProject(project.id)}>
                 <img src={project.projectImage} alt={project.projectDesc} />
                 <div className = 'py-[15px] px-[10px] flex flex-col gap-[5px]'>
                     <Typography type = 'h6' className = 'text-[var(--text-dark)] text-[14px] font-bold'>{project.projectTitle}</Typography>
