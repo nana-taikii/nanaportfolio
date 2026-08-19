@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "@heroui/styles"; 
-@import url('https://fontshare.com[]=satoshi@400,500,700,900&display=swap');
-
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap');
 
 :root{
   --main-dark:#2C2B2B;
@@ -54,7 +53,7 @@
 
 
 *{
-  font-family:'satoshi';
+  font-family:'Satoshi', sans-serif;
   box-sizing:border-box;
 }
 
