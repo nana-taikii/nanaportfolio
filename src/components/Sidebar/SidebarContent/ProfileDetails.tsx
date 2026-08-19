@@ -44,7 +44,7 @@ const ProfileDetails = () => {
             type="body"
             className="
             text-[14px] text-[var(--text-secondary)]
-             max-[768px]:text-[13px]
+             max-[768px]:text-[12px]
             "
           >
             I'm a UI/UX Developer and Designer
