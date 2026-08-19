@@ -3,7 +3,7 @@ import {customButtonStyles } from '../../../styles/CustomButtonStyles'
 import IconArrow from "../../../assets/svg/icon_arrow.svg"
 import ImgFuncars from "../../../assets/images/img_funcars.png"
 import ImgRuffree from "../../../assets/images/img_ruffree.png"
-import ImgSmileTruck from "../../../assets/images/img_smiletruck.png"
+import ImgSmileTruck from "../../../assets/images/img_smileTruck.png"
 import ImgIsuzu from "../../../assets/images/img_isuzu.png"
 
 
