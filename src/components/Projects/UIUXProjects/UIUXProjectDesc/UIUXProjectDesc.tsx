@@ -22,7 +22,7 @@ const UIUXProjectDesc = () => {
           onClick={handleBack}
         >
           <img src={IconBackArrow} alt="back" className = 'max-[767px]:w-[20px]'/>
-          <Typography className="text-[var(--text-secondary)] font-bold max-[767px]:text-[12px]">
+          <Typography className="text-[var(--text-secondary)] font-bold max-[767px]:text-[14px]">
             Back
           </Typography>
         </div>
@@ -40,7 +40,7 @@ const UIUXProjectDesc = () => {
                 </Typography>
                 <Typography
                   type="body"
-                  className="max-w-[650px] leading-[130%] mt-[15px] max-[767px]:text-[12px]"
+                  className="max-w-[650px] leading-[130%] mt-[15px] max-[767px]:text-[14px]"
                 >
                   {projectDesc?.projectOverview}
                 </Typography>
@@ -49,13 +49,13 @@ const UIUXProjectDesc = () => {
                 <div className="flex flex-col gap-[8px]">
                   <Typography
                     type="body"
-                    className="leading-[130%] font-medium text-[var(--text-secondary)] text-[14px] max-[767px]:text-[12px]"
+                    className="leading-[130%] font-medium text-[var(--text-secondary)] text-[14px] max-[767px]:text-[14px]"
                   >
                     Designed for
                   </Typography>
                   <Typography
                     type="body"
-                    className="leading-[130%] text-[14px] font-bold max-[767px]:text-[12px]"
+                    className="leading-[130%] text-[14px] font-bold max-[767px]:text-[14px]"
                   >
                     {projectDesc?.projectDesignedFor}
                   </Typography>
@@ -63,13 +63,13 @@ const UIUXProjectDesc = () => {
                 <div className="flex flex-col gap-[8px]">
                   <Typography
                     type="body"
-                    className="leading-[130%] font-medium text-[var(--text-secondary)] text-[14px] max-[767px]:text-[12px]"
+                    className="leading-[130%] font-medium text-[var(--text-secondary)] text-[14px] max-[767px]:text-[14px]"
                   >
                     Role
                   </Typography>
                   <Typography
                     type="body"
-                    className="leading-[130%] text-[14px] font-bold max-[767px]:text-[12px]"
+                    className="leading-[130%] text-[14px] font-bold max-[767px]:text-[14px]"
                   >
                     {projectDesc?.projectRole}
                   </Typography>
@@ -77,7 +77,7 @@ const UIUXProjectDesc = () => {
               </div>
             </div>
             <div >
-              <Typography type="h3" className="text-[16px] font-bold mb-[15px] max-[767px]:text-[12px]">
+              <Typography type="h3" className="text-[16px] font-bold mb-[15px] max-[767px]:text-[14px]">
                 Tools
               </Typography>
               <ToolsList showTools={projectDesc?.projectTools} />

@@ -57,9 +57,9 @@ const WebDevelopment = () => {
     <section className = 'flex flex-col gap-[10px] h-full'>
       {webDevProjects.map((project, index) => (
         <div key = {project.id} style = {{animationDelay:`${index * 0.1}s`}} className = {` animation-fadeUp w-full flex flex-row gap-[40px]  justify-between bg-[var(--main-white)] p-[30px] rounded-[20px] max-[1000px]:flex-col-reverse max-[1000px]:w-[700px] max-[1000px]:mx-auto max-[767px]:w-full max-[767px]:p-[16px] max-[767px]:gap-[20px] ${index % 2 === 1 ? 'flex-row-reverse':''}`}>
-            <div className = 'flex flex-col gap-[15px] max-w-[530px]'>
+            <div className = 'flex flex-col gap-[15px] max-w-[530px] max-[767px]:gap-[10px]'>
                 <Typography type = 'h3' className = 'text-[18px] max-[767px]:text-[16px]'>{project.projectTitle}</Typography>
-                <Typography type = 'body' className = {'text-[14px] leading-[130%] font-normal max-[767px]:text-[12px] '}>{project.projectDesc}</Typography>
+                <Typography type = 'body' className = {'text-[14px] leading-[130%] font-normal max-[767px]:text-[14px] '}>{project.projectDesc}</Typography>
                 <TechStackList showTechs = {project.projectTechStacks ? project.projectTechStacks : []}/>
                 <a href = {project.projectLink} target="_blank" className = {`${customButtonStyles({intent:'default'})} !text-[12px] w-fit mt-[10px]`}>view project <img src = {IconArrow}/></a>
             </div>

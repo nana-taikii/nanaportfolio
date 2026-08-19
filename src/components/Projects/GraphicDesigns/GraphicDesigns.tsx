@@ -18,7 +18,7 @@ const GraphicDesigns = () => {
         <img src = {ImgTakoyaki1} className = 'shadow-[var(--box-shadow2)] max-w-[346px] max-[1440px]:max-w-[500px] max-[1440px]:mx-auto max-[767px]:max-w-full' loading = 'lazy'/>
         <div className = 'flex flex-col gap-[15px] max-w-[550px]'>
             <Typography type = 'h2' className = 'text-[20px] font-[900] max-[767px]:text-[16px]'>TK TAKOYAKI</Typography>
-            <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[12px]'>
+            <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[14px]'>
                 Used a tako character and Japan scenery elements to create posters for the newly opened branch of TK takoyaki.
             </Typography>
             <Typography type = 'body' className = 'text-[14px] leading-[130%] font-[500] mt-[5px]'>Tools Used:</Typography>
@@ -38,7 +38,7 @@ const GraphicDesigns = () => {
      <section className = 'animation-fadeUp mt-[20px] flex flex-row gap-[50px] w-full p-[30px] bg-[var(--main-white)] rounded-[20px] items-center max-[1440px]:flex-col max-[1440px]:w-full max-[1440px]:max-w-[700px] max-[1440px]:mx-auto max-[1440px]:items-start max-[1440px]:gap-[20px] max-[767px]:px-[15px] max-[767px]:rounded-[10px]'>
         <div className = 'flex flex-col gap-[15px] '>
             <Typography type = 'h2' className = 'text-[20px] font-[900] max-[767px]:text-[16px]'>T.M.J Tutoring</Typography>
-            <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[12px'>
+            <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[14px]'>
                 Used a tako character and Japan scenery elements to create posters for the newly opened branch of TK takoyaki
             </Typography>
             <Typography type = 'body' className = 'text-[14px] leading-[130%] font-[500] mt-[5px]'>Tools Used:</Typography>

@@ -20,9 +20,9 @@ const NavTabsSp = () => {
         </Tabs.List>
       </Tabs.ListContainer>
       <Tabs.Panel className="pt-4 px-0" id="my-works" >
-       <div className = 'mb-[20px]'>
+       <div className = 'mb-[25px]'>
         <Typography type = 'h2' className = 'text-[16px] font-bold'>My Works</Typography>
-        <Typography type = 'body' className = 'text-[12px] text-[var(--text-secondary)] font-500 leading-[130%] mt-[8px]'>A showcase of my recent work, highlighting creativity, quality, and impact.</Typography>
+        <Typography type = 'body' className = 'text-[14px] text-[var(--text-secondary)] font-500 leading-[130%] mt-[8px]'>A showcase of my recent work, highlighting creativity, quality, and impact.</Typography>
        </div>
        <NavTabs/>
       </Tabs.Panel>
