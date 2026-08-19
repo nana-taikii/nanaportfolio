@@ -1,4 +1,3 @@
-import React from 'react'
 import { Typography } from '@heroui/react'
 import IconFigma from "../../assets/images/icon_figma.png"
 import IconAffinity from "../../assets/images/icon_affinity.png"

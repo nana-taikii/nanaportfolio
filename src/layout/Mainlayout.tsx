@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
@@ -9,7 +9,6 @@ const Mainlayout = () => {
   const [openSidebar, setOpenSidebar] = useState(false);
   const [openSidebarDrawer, setOpenSidebarDrawer] = useState(false);
   const {windowWidth} = useScreenSize()
-  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleToggleSidebar = () => {
     setOpenSidebar((prev) => !prev);
@@ -19,18 +18,6 @@ const Mainlayout = () => {
     console.log("darwer");
     setOpenSidebarDrawer((prev) => !prev);
   };
-
-  // useEffect(() => {
-  //   const handleResizeScreen = () => {
-  //     setWindowWidth(window.innerWidth);
-  //   };
-
-  //   window.addEventListener("resize", handleResizeScreen);
-
-  //   return () => {
-  //     window.removeEventListener("resize", handleResizeScreen);
-  //   };
-  // }, []);
 
   return (
     <div className="flex flex-row w-full overflow-hidden">

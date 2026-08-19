@@ -1,4 +1,3 @@
-import React from 'react'
 import TechStackList from '../../TechStacks/TechStacksList'
 import {customButtonStyles } from '../../../styles/CustomButtonStyles'
 import IconArrow from "../../../assets/svg/icon_arrow.svg"
@@ -8,7 +7,7 @@ import ImgSmileTruck from "../../../assets/images/img_smiletruck.png"
 import ImgIsuzu from "../../../assets/images/img_isuzu.png"
 
 
-import {Button, Typography} from '@heroui/react'
+import {Typography} from '@heroui/react'
 
 interface webDevProjectTypes{
     id:number,

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import  {useState} from 'react'
 import { Tabs, tv } from '@heroui/react'
 import UIUXProjects from '../Projects/UIUXProjects/UIUXProjects'
 import WebDevelopment from '../Projects/WebDevelopment/WebDevelopment'

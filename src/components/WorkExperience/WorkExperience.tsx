@@ -1,5 +1,4 @@
 import { Typography } from '@heroui/react'
-import React from 'react'
 import IconMoriTech from "../../assets/svg/icon_moriTech.svg"
 import IconAsialink from "../../assets/svg/icon_asialink.svg"
 

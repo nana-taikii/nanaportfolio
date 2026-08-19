@@ -1,17 +1,12 @@
-import React from 'react'
 import { Typography } from '@heroui/react'
-import {useSearchParams, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 import {uiuxProjects} from './UIUXProjectList'
 
 const UIUXProjects = () => {
-    const [searchParams] = useSearchParams();
     const navigate = useNavigate();
-   
+
 
     const handleOpenUIUXProject = (projectId:string) => {
-        // const projectParams = new URLSearchParams(searchParams);
-        // projectParams.set('uiux', `${projectId}`);
-        // navigate(`?${projectParams.toString()}`, {replace:true})
         navigate(`/uiux/${projectId}`)
     }
 

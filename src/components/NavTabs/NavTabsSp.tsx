@@ -1,5 +1,4 @@
-import React from 'react'
-import { Tabs, tv, Typography } from '@heroui/react'
+import { Tabs,  Typography } from '@heroui/react'
 import WorkExperience from '../WorkExperience/WorkExperience'
 import TechStacks from '../TechStacks/TechStacks'
 import NavTabs from './NavTabs'

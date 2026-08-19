@@ -1,4 +1,4 @@
-import { Button, Drawer } from "@heroui/react";
+import {  Drawer } from "@heroui/react";
 import SidebarContent from "../SidebarContent/SidebarContent";
 
 export function DrawerSidebar({

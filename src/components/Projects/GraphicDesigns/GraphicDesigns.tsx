@@ -1,4 +1,3 @@
-import React from 'react'
 import { Typography } from '@heroui/react'
 import ToolsList from '../../Tools/ToolsList'
 import ImgTakoyaki1 from "../../../assets/images/img_takoyaki1.png"

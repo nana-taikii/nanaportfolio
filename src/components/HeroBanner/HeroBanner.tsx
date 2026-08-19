@@ -1,8 +1,6 @@
-import React from "react";
 import ImgHeroBanner from "../../assets/images/img_heroBanner.webp";
 import ImgHeroBannerSp from "../../assets/images/img_heroBanner_sp.png"
 import { Typography } from "@heroui/react";
-import NavTabs from "../NavTabs/NavTabs";
 
 const HeroBanner = () => {
   return (

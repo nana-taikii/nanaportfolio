@@ -1,6 +1,5 @@
-import React from "react";
 import IconMenu from "../../assets/svg/icon_menu.svg";
-import { Button, Link } from "@heroui/react";
+import { Button, } from "@heroui/react";
 import {
   customButtonIconStyles,
   customButtonStyles,

@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
 import ImgProfile from "../../../assets/images/img_profile.png";
 import { ButtonGroup, Typography, Button, Link } from "@heroui/react";
-import { customButtonStyles } from '../../../styles/CustomButtonStyles'
-
 
 import IconSend from "../../../assets/svg/icon_send.svg";
 import IconFacebook from "../../../assets/svg/icon_facebook.svg";

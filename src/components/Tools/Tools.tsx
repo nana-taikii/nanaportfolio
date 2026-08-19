@@ -1,4 +1,3 @@
-import React from "react";
 import { Typography } from "@heroui/react";
 import ToolsList from "./ToolsList";
 

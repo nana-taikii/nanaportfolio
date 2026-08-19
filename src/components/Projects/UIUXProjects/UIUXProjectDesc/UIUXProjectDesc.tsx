@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import IconBackArrow from "../../../../assets/svg/icon_backArrow.svg";
 import { Typography } from "@heroui/react";
