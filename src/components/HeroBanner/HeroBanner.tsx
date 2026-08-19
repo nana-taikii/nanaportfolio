@@ -7,10 +7,6 @@ import NavTabs from "../NavTabs/NavTabs";
 const HeroBanner = () => {
   return (
     <div className = 'w-full'>
-      {/* <div className = 'w-full bg-[var(--main-darkBlue)] overflow-hidden'>
-            <img src={ImgHeroBanner} width = 'auto' style = {{float:'right', maxHeight:'260px'}}/>
-
-        </div> */}
       <div className="w-full bg-[var(--main-darkBlue)] overflow-hidden relative ">
         <picture>
           <source srcSet = {ImgHeroBannerSp} media = '(max-width:768px)'/>
@@ -27,7 +23,8 @@ const HeroBanner = () => {
         <div className='
         absolute top-1/2 -translate-y-1/2 left-[40px] flex flex-col gap-[15px] max-w-[440px]
         max-[768px]:max-w-[258px]
-        max-[768px]:top-[66px]
+        max-[767px]:top-[130px]
+        max-[550px]:top-[66px]
         max-[768px]:left-[20px]
         max-[768px]:gap-[10px]
         '>

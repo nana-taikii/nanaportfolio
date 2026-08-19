@@ -6,7 +6,7 @@ import Tools from "../Tools/Tools";
 const TechStacks = () => {
 
   return (
-    <div className="w-full p-[25px] flex flex-col gap-[15px]">
+    <div className="w-full p-[25px] flex flex-col gap-[15px] max-[768px]:p-[16px] ">
         <Typography type = 'h2' className = 'c-section-title'>Tech Stacks</Typography>
         <TechStacksList/>
         <Tools/>

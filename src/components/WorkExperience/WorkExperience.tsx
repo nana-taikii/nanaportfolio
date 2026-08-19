@@ -29,7 +29,7 @@ const WorkExperience = () => {
 
     ]
   return (
-    <div className = 'p-[25px] rounded-[20px] bg-[var(--main-lightGray)] flex flex-col gap-[20px] w-full'>
+    <div className = 'p-[25px] rounded-[20px] bg-[var(--main-lightGray)] flex flex-col gap-[20px] w-full max-[768px]:p-[16px] max-[767px]:bg-[white]'>
         <Typography type = 'h2' className = 'c-section-title'>Work Experience</Typography>
         <ul className = 'flex flex-col gap-[20px] '>
             {workExperience.map((experience) => (

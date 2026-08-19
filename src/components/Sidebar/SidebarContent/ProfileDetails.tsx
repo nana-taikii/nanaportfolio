@@ -14,8 +14,7 @@ const ProfileDetails = () => {
     flex flex-col gap-[20px] w-full items-center justify-center
     max-[768px]:flex-row
     max-[768px]:pt-[30px] pb-[20px] px-[20px]
-   
-      max-[768px]:justify-start
+    max-[768px]:justify-start
     
     ">
       <img
@@ -54,8 +53,8 @@ const ProfileDetails = () => {
             I'm a UI/UX Developer and Designer
           </Typography>
         </div>
-        <ButtonGroup className="gap-[8px] shrink-0 w-full">
-          <Button className={`c-dark-btn`}>
+        <ButtonGroup className="gap-[8px] shrink-0 w-full justify-start">
+          <Button className={`c-dark-btn w-[fit-content] flex-start`}>
             message
             <img src={IconSend} />
           </Button>

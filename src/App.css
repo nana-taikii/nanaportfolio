@@ -226,3 +226,11 @@
   opacity:0;
   animation:fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards
 }
+
+
+/*INDICATOR STYLES*/
+ .tabs__list-container__scroll-next,
+ .tabs__list-container__scroll-prev{
+  top:17px;
+  display:none
+ }

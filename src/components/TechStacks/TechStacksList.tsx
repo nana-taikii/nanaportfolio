@@ -1,6 +1,6 @@
 import { Typography } from "@heroui/react";
 
-const TechStacksList = ({ showTechs = [] }: { showTechs?: string[] }) => {
+const TechStacksList = ({ showTechs = [], style }: { showTechs?: string[], style?:string }) => {
   const techStacks = [
     "HTML",
     "CSS",
@@ -25,10 +25,10 @@ const TechStacksList = ({ showTechs = [] }: { showTechs?: string[] }) => {
       : techStacks.filter((stacks) => showTechs.includes(stacks));
 
   return (
-    <ul className="flex flex-row gap-[6px] flex-wrap w-full">
+    <ul className={`flex flex-row gap-[6px] flex-wrap w-full ${style}`}>
       {filteredTechStacks.map((stacks) => (
         <li key = {stacks} className="rounded-[8px] bg-[var(--main-lightGray)] py-[10px] px-[8px]">
-          <Typography type="body" className="text-[12px] font-[700]">
+          <Typography type="body" className="text-[12px] font-[700] max-[767px]:text-[10px]">
             {stacks}
           </Typography>
         </li>

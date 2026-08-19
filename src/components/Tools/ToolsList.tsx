@@ -48,9 +48,9 @@ const ToolsList = ({ showTools  = []}:{showTools?:string[]}) => {
   return (
     <ul className = 'flex flex-row flex-wrap gap-[6px]'>
         {filteredTools.map((tools) => (
-            <li key = {tools.id} className = 'flex flex-col items-center gap-[6px] py-[10px] px-[8px] rounded-[8px] h-[60px] min-w-[60px] bg-[var(--main-lightGray)]'>
+            <li key = {tools.id} className = 'flex flex-col items-center gap-[8px] py-[10px] px-[8px] rounded-[8px] h-[60px] min-w-[60px] bg-[var(--main-lightGray)]'>
                 <img src={tools.toolLogo} alt={tools.toolName} />
-                <Typography type = 'body' className = 'text-[12px] font-normal text-[var(--text-secondary)]'>{tools.toolName}</Typography>
+                <Typography type = 'body' className = 'text-[12px] font-normal text-[var(--text-secondary)] max-[767px]:text-[10px]'>{tools.toolName}</Typography>
             </li>
         ))}
     </ul>

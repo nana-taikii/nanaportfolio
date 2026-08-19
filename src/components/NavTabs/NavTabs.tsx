@@ -7,7 +7,7 @@ import { useNavigate, useSearchParams } from 'react-router'
 
 
 const customTabStyles = tv({
-    base:'rounded-[8px] text-[var(--text-black)] text-[12px] font-bold !w-fit whitespace-nowrap bg-[var(--main-white)] shadow-[var(--box-shadow1)] data-[selected=true]:text-[var(--text-white)] data-[selected=true]:![background:var(--gradient-blue)] ',
+    base:'rounded-[8px] text-[var(--text-black)] text-[12px] font-bold !w-fit whitespace-nowrap bg-[var(--main-white)] shadow-[var(--box-shadow1)] data-[selected=true]:text-[var(--text-white)] data-[selected=true]:![background:var(--gradient-blue)] max-[768px]:text-[12px]',
     variants:{
         intent:{
             default:'',
