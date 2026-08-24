@@ -32,7 +32,7 @@ const UIUXProjectDesc = () => {
             className="w-full rounded-[20px] max-[767px]:rounded-[12px]"
             loading="lazy"
           />
-          <div className=" flex flex-col gap-[30px]  w-full max-w-[1100px] mx-auto mt-[20px]  ">
+          <div className=" flex flex-col gap-[30px]  w-full max-w-[1100px] mx-auto mt-[20px] max-[767px]:mt-[0px]  ">
             <div className="flex flex-row gap-[40px] max-[767px]:flex-col max-[767px]:gap-[20px]">
               <div>
                 <Typography type="h2" className="font-[900] text-[20px] max-[767px]:text-[16px]">
@@ -55,7 +55,7 @@ const UIUXProjectDesc = () => {
                   </Typography>
                   <Typography
                     type="body"
-                    className="leading-[130%] text-[14px] font-bold max-[767px]:text-[14px]"
+                    className="!leading-[140%] text-[14px] font-bold max-[767px]:text-[14px] "
                   >
                     {projectDesc?.projectDesignedFor}
                   </Typography>

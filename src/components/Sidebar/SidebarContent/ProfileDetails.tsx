@@ -4,6 +4,7 @@ import { ButtonGroup, Typography, Button, Link } from "@heroui/react";
 import IconSend from "../../../assets/svg/icon_send.svg";
 import IconFacebook from "../../../assets/svg/icon_facebook.svg";
 import IconLinkedin from "../../../assets/svg/icon_linkedin.svg";
+import IconGithub from "../../../assets/svg/icon_github.svg"
 
 const ProfileDetails = () => {
   return (
@@ -51,14 +52,14 @@ const ProfileDetails = () => {
           </Typography>
         </div>
         <ButtonGroup className="gap-[8px] shrink-0 w-full justify-start">
-          <Button className={`c-dark-btn w-[fit-content] flex-start`}>
+          <Button className={`c-dark-btn w-[fit-content] flex-start`} onClick = {() => window.location.href = 'mailto:donnahopebersabebanzuela@gmail.com'}>
             message
             <img src={IconSend} />
           </Button>
-          <Link className="c-icon__link">
-            <img src={IconFacebook} alt="" />
+          <Link className="c-icon__link w-[41px]"  href = 'https://github.com/nana-taikii' target = '_blank'>
+            <img src={IconGithub} alt="" />
           </Link>
-          <Link className="c-icon__link ">
+          <Link className="c-icon__link w-[40px] " href = 'https://www.linkedin.com/in/donna-hope-banzuela-34a470323 ' target = '_blank'>
             <img src={IconLinkedin} alt="" />
           </Link>
         </ButtonGroup>

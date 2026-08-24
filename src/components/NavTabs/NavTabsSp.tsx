@@ -9,7 +9,7 @@ const NavTabsSp = () => {
      <Tabs className="w-full px-[20px]" variant="secondary">
       <Tabs.ListContainer>
         <Tabs.List aria-label="my-works">
-          <Tabs.Tab id="my-works" className = 'w-[fit-content] px-[5px] mr-[30px] font-bold'>
+          <Tabs.Tab id="my-works" className = 'w-[fit-content] px-[5px] mr-[25px] font-bold'>
             Work
             <Tabs.Indicator className = 'bg-[var(--main-dark)] rounded-[50px]'/>
           </Tabs.Tab>

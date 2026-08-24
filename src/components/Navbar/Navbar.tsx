@@ -9,7 +9,7 @@ import Resume from "../../assets/files/BANZUELA-DONNA-HOPE-CV.pdf";
 
 const Navbar = ({ buttonFunction }: { buttonFunction: () => void }) => {
   return (
-    <div className="bg-[var(--main-white)] py-[10px] pl-[0px] pr-[20px] flex flex-row justify-between w-full">
+    <div className="bg-[var(--main-white)] py-[10px] pl-[0px] pr-[20px] flex flex-row justify-between w-full max-[767px]:pr-[10px]">
       <Button
         className={`${customButtonIconStyles({
           intent: "default",

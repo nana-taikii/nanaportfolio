@@ -43,14 +43,20 @@
 
 }
 
-::-webkit-scrollbar-thumb:active {
-}
-
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
 
+@media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
 
+  * {
+    scrollbar-width: none;
+  }
+}
 
 
 *{
@@ -132,9 +138,7 @@
   @apply text-[16px] font-bold
 }
 
-.c-icon__link img{
-  /* transform:scale(1.5) */
-}
+
 
 @media screen and (max-width:768px){
   .c-icon__link{

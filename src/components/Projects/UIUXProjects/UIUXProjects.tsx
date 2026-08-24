@@ -31,7 +31,7 @@ const UIUXProjects = () => {
             `} 
             style = {{animationDelay:`${index * 0.1}s`}}
             onClick = {() => handleOpenUIUXProject(project.id)}>
-                <img src={project.projectImage} alt={project.projectDesc} />
+                <img src={project.projectImage} alt={project.projectDesc} className ='w-full'/>
                 <div className = 'py-[15px] px-[10px] flex flex-col gap-[5px]'>
                     <Typography type = 'h6' className = 'text-[var(--text-dark)] text-[14px] font-bold'>{project.projectTitle}</Typography>
                     <Typography type = 'body' className = 'text-[var(--text-secondary)] text-[12px] font-bold'>{project.projectDesc}</Typography>

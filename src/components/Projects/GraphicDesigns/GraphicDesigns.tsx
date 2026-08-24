@@ -8,6 +8,7 @@ import ImgTakoyaki5 from "../../../assets/images/img_takoyaki5.png"
 import ImgTMJ1 from "../../../assets/images/img_tmj1.png"
 import ImgTMJ2 from "../../../assets/images/img_tmj2.png"
 import ImgTMJ3 from "../../../assets/images/img_tmj3.png"
+import ImgBirthdayCard from "../../../assets/images/img_birthdayCard.png"
 
 
 const GraphicDesigns = () => {
@@ -16,11 +17,10 @@ const GraphicDesigns = () => {
       
       <section className = 'animation-fadeUp flex flex-row gap-[50px] w-full p-[30px] bg-[var(--main-white)] rounded-[20px] items-center  max-[1440px]:flex-col-reverse max-[1440px]:w-full max-[1440px]:max-w-[700px] max-[1440px]:mx-auto max-[1440px]:items-start max-[767px]:py-[20px] max-[767px]:px-[15px] max-[767px]:rounded-[10px]'>
         <img src = {ImgTakoyaki1} className = 'shadow-[var(--box-shadow2)] max-w-[346px] max-[1440px]:max-w-[500px] max-[1440px]:mx-auto max-[767px]:max-w-full' loading = 'lazy'/>
-        <div className = 'flex flex-col gap-[15px] max-w-[550px]'>
+        <div className = 'flex flex-col gap-[15px] max-w-[550px] max-[767px]:max-w-full'>
             <Typography type = 'h2' className = 'text-[20px] font-[900] max-[767px]:text-[16px]'>TK TAKOYAKI</Typography>
             <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[14px]'>
-                Used a tako character and Japan scenery elements to create posters for the newly opened branch of TK takoyaki.
-            </Typography>
+Designed promotional posters for TK Takoyaki, incorporating Japanese-inspired visual elements, playful typography, and food-focused imagery to create an eye-catching promotional campaign for the brand’s new branch opening.            </Typography>
             <Typography type = 'body' className = 'text-[14px] leading-[130%] font-[500] mt-[5px]'>Tools Used:</Typography>
             <ToolsList showTools = {["Figma", "Affinity"]}/>
         </div>
@@ -39,8 +39,7 @@ const GraphicDesigns = () => {
         <div className = 'flex flex-col gap-[15px] '>
             <Typography type = 'h2' className = 'text-[20px] font-[900] max-[767px]:text-[16px]'>T.M.J Tutoring</Typography>
             <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[14px]'>
-                Used a tako character and Japan scenery elements to create posters for the newly opened branch of TK takoyaki
-            </Typography>
+Designed a series of promotional materials for T.M.J Tutoring, focusing on clean layouts, strong visual hierarchy, and educational messaging to communicate the brand’s values and highlight its approach to personalized tutoring and student support.            </Typography>
             <Typography type = 'body' className = 'text-[14px] leading-[130%] font-[500] mt-[5px]'>Tools Used:</Typography>
             <ToolsList showTools = {["Figma", "Affinity"]}/>
             <div className = 'flex flex-row px-[20px] py-[20px] gap-[30px] items-center  justify-center max-[767px]:flex-col max-[767px]:w-full max-[767px]:px-0' >
@@ -49,6 +48,16 @@ const GraphicDesigns = () => {
             </div>
         </div>
          <img src = {ImgTMJ1} className = 'shadow-[var(--box-shadow2)] w-full max-w-[400px] h-[auto] max-[1440px]:max-w-[500px] max-[1440px]:mx-auto' loading = 'lazy'/>
+      </section>
+       <section className = 'animation-fadeUp flex flex-row gap-[50px] w-full p-[30px] bg-[var(--main-white)] rounded-[20px] items-center  max-[1440px]:flex-col-reverse max-[1440px]:w-full max-[1440px]:max-w-[700px] max-[1440px]:mx-auto max-[1440px]:items-start max-[767px]:py-[20px] max-[767px]:px-[15px] max-[767px]:rounded-[10px]'>
+        <img src = {ImgBirthdayCard} className = 'shadow-[var(--box-shadow2)] max-w-[346px] max-[1440px]:max-w-[500px] max-[1440px]:mx-auto max-[767px]:max-w-full' loading = 'lazy'/>
+        <div className = 'flex flex-col gap-[15px] max-w-[550px] max-[767px]:max-w-full'>
+            <Typography type = 'h2' className = 'text-[20px] font-[900] max-[767px]:text-[16px]'>Birthday Invitation Card</Typography>
+            <Typography type = 'body' className = 'text-[14px] leading-[130%] bg-[var(--main-lightGray)] p-[15px] rounded-[8px] max-[767px]:text-[14px]'>
+Designed a colorful and playful birthday invitation card, combining vibrant illustrations, cheerful typography, and a summer-inspired theme to create an engaging and personalized invitation for a 10th birthday celebration.            </Typography>
+            <Typography type = 'body' className = 'text-[14px] leading-[130%] font-[500] mt-[5px]'>Tools Used:</Typography>
+            <ToolsList showTools = {["Canva"]}/>
+        </div>
       </section>
     </div>
   )
