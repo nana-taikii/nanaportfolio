@@ -5,7 +5,6 @@ import { ButtonGroup, Typography, Button, Link } from "@heroui/react";
 
 import IconSend from "../../../assets/svg/icon_send.svg";
 import IconLinkedin from "../../../assets/svg/icon_linkedin.svg";
-import IconGithub from "../../../assets/svg/icon_github.svg"
 import IconWhatsapp from "../../../assets/svg/icon_whatsapp.svg"
 
 const ProfileDetails = () => {
