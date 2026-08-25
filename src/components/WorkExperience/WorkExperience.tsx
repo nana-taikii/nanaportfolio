@@ -7,7 +7,7 @@ const WorkExperience = () => {
         {
             id:1,
             jobTitle:'Junior UI/UX Developer',
-            company:'Asialink FInance Corporation',
+            company:'Asialink Finance Corporation',
             dateHired:'Nov 2024 - Present',
             companyLogo: IconAsialink
         },

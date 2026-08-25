@@ -49,7 +49,7 @@ Designed a series of promotional materials for T.M.J Tutoring, focusing on clean
         </div>
          <img src = {ImgTMJ1} className = 'shadow-[var(--box-shadow2)] w-full max-w-[400px] h-[auto] max-[1440px]:max-w-[500px] max-[1440px]:mx-auto' loading = 'lazy'/>
       </section>
-       <section className = 'animation-fadeUp flex flex-row gap-[50px] w-full p-[30px] bg-[var(--main-white)] rounded-[20px] items-center  max-[1440px]:flex-col-reverse max-[1440px]:w-full max-[1440px]:max-w-[700px] max-[1440px]:mx-auto max-[1440px]:items-start max-[767px]:py-[20px] max-[767px]:px-[15px] max-[767px]:rounded-[10px]'>
+       <section className = 'animation-fadeUp mt-[20px] flex flex-row gap-[50px] w-full p-[30px] bg-[var(--main-white)] rounded-[20px] items-center  max-[1440px]:flex-col-reverse max-[1440px]:w-full max-[1440px]:max-w-[700px] max-[1440px]:mx-auto max-[1440px]:items-start max-[767px]:py-[20px] max-[767px]:px-[15px] max-[767px]:rounded-[10px]'>
         <img src = {ImgBirthdayCard} className = 'shadow-[var(--box-shadow2)] max-w-[346px] max-[1440px]:max-w-[500px] max-[1440px]:mx-auto max-[767px]:max-w-full' loading = 'lazy'/>
         <div className = 'flex flex-col gap-[15px] max-w-[550px] max-[767px]:max-w-full'>
             <Typography type = 'h2' className = 'text-[20px] font-[900] max-[767px]:text-[16px]'>Birthday Invitation Card</Typography>
