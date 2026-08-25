@@ -40,7 +40,7 @@ const WebDevelopment = () => {
        {
             id: 1,
             projectTitle: 'ROPAHUB',
-            projectDesc: 'Designed and developed ROPAHUB, a B2B software platform that streamlines legal workflows for loan account processing, collateral management, appraisal, and bidding, improving efficiency and simplifying complex processes.',            
+            projectDesc: 'Designed and developed ROPAHUB, a web system that streamlines legal workflows for loan account processing, collateral management, appraisal, and bidding, improving efficiency and simplifying complex processes.',            
             projectTechStacks: ['HTML', 'CSS', 'JS', 'REACT', 'REDUX', 'API INTEGRATION', 'MUI', 'TYPESCRIPT', 'RTK QUERY',],
             projectImage: ImgRopahub,
             projectLink: '',
