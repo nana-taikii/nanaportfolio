@@ -5,7 +5,7 @@ import {
   customButtonStyles,
 } from "../../styles/CustomButtonStyles";
 import IconFile from "../../assets/svg/icon_file.svg";
-import Resume from "../../assets/files/BANZUELA-DONNA-HOPE-CV.pdf";
+import Resume from "../../assets/files/RESUME_BANZUELA_DONNA_HOPE B.pdf"
 
 const Navbar = ({ buttonFunction }: { buttonFunction: () => void }) => {
   return (
