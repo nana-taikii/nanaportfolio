@@ -93,7 +93,7 @@ const WebDevelopment = () => {
             projectDesc: 'Developed the recruitment page for the Iyasheep official website, a Japanese dry head spa and relaxation business. The page focuses on clear job presentation, company information, and a user-friendly application flow for prospective therapists and staff.',            
             projectTechStacks:['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'CONTACT F7'],
             projectImage:ImgIyasheep ,
-            projectLink:'https://neeeeeythan.github.io/amazones/'
+            projectLink:'https://iyasheep.com/recruit/'
         },
         {
             id: 6,
