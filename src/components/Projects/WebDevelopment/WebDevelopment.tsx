@@ -55,6 +55,14 @@ const WebDevelopment = () => {
             projectLink: '',
             private:true
         },
+         {
+            id: 4,
+            projectTitle: 'Isuzu Philippines',
+            projectDesc: 'Collaborated with co-developers in developing the official Isuzu Philippines website, delivering a clean, responsive, and user-friendly experience with seamless navigation and an engaging presentation of Isuzu vehicles, services, and automotive offerings.',
+            projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP'],
+            projectImage: ImgIsuzu,
+            projectLink: 'https://www.isuzuphil.com/'
+        },
         {
             id: 2,
             projectTitle: 'Funcars',
@@ -79,14 +87,7 @@ const WebDevelopment = () => {
             projectImage: ImgSmileTruck,
             projectLink: 'https://smile-cars.jp/truck/'
         },
-        {
-            id: 4,
-            projectTitle: 'Isuzu Philippines',
-            projectDesc: 'Worked on developing the official Isuzu Philippines website using WordPress, focusing on a clean and responsive design, seamless navigation, and an engaging presentation of Isuzu vehicles, services, and automotive offerings.',
-            projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP', 'OCTOBER CMS',],
-            projectImage: ImgIsuzu,
-            projectLink: 'https://isuzu-staging.de-f.net/'
-        },
+       
          {
             id:5,
             projectTitle:'Iyasheep',
