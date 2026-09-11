@@ -38,7 +38,7 @@ const WebDevelopment = () => {
             private:true
         },
        {
-            id: 1,
+            id: 2,
             projectTitle: 'ROPAHUB',
             projectDesc: 'Designed and developed ROPAHUB, a web system that streamlines legal workflows for loan account processing, collateral management, appraisal, and bidding, improving efficiency and simplifying complex processes.',            
             projectTechStacks: ['HTML', 'CSS', 'JS', 'REACT', 'REDUX', 'API INTEGRATION', 'MUI', 'TYPESCRIPT', 'RTK QUERY',],
@@ -47,7 +47,7 @@ const WebDevelopment = () => {
             private:true
         },
         {
-            id: 1,
+            id: 3,
             projectTitle: 'Warehouse Monitoring System (WMS)',
             projectDesc: 'Designed and developed the User Management and Reports modules for the Warehouse system, focusing on providing administrators with an organized and efficient interface for managing user accounts, roles, and access, while presenting operational data through clear and structured reports.',            
             projectTechStacks: ['HTML', 'CSS', 'JS', 'REACT', 'AXIOS', 'API INTEGRATION', 'MUI', 'TYPESCRIPT',],
@@ -64,7 +64,7 @@ const WebDevelopment = () => {
             projectLink: 'https://www.isuzuphil.com/'
         },
         {
-            id: 2,
+            id: 5,
             projectTitle: 'Funcars',
             projectDesc: 'Developed the Funcars website, an automotive platform showcasing vehicle listings and related information through a modern, user-friendly, and seamless browsing experience.',
             projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'ACF', 'CONTACT F7'],
@@ -72,7 +72,7 @@ const WebDevelopment = () => {
             projectLink: 'https://funcars.shop/'
         },
         {
-            id: 3,
+            id: 6,
             projectTitle: 'Ruffree',
             projectDesc: 'Developed the official RUFFREE website, a wellness and relaxation brand offering services designed to promote rest and well-being. Focused on creating a clean design, intuitive navigation, and engaging service presentation.',
             projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'ACF', 'CONTACT F7'],
@@ -80,7 +80,7 @@ const WebDevelopment = () => {
             projectLink: 'https://ruffree.com/'
         },
         {
-            id: 3,
+            id: 7,
             projectTitle: 'Smile Truck',
             projectDesc: 'Collaborated on the development of the Smile Truck website, an automotive platform focused on showcasing trucks and related vehicle offerings. Contributed to page implementation, responsive layouts, and an improved overall user experience.',
             projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'ACF', 'CONTACT F7'],
@@ -89,15 +89,23 @@ const WebDevelopment = () => {
         },
        
          {
-            id:5,
+            id:8,
             projectTitle:'Iyasheep',
             projectDesc: 'Developed the recruitment page for the Iyasheep official website, a Japanese dry head spa and relaxation business. The page focuses on clear job presentation, company information, and a user-friendly application flow for prospective therapists and staff.',            
             projectTechStacks:['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'CONTACT F7'],
             projectImage:ImgIyasheep ,
             projectLink:'https://iyasheep.com/recruit/'
         },
+         {
+            id:11,
+            projectTitle:'Amazones',
+            projectDesc:'Collaborated on the development of the Front End User Interface of Amazones, a women only gym fitness platform designed to provide a safe, empowering and accessible space for women to achieve their health goals.',
+            projectTechStacks:['HTML', 'CSS', 'JS',],
+            projectImage:ImgAmazones,
+            projectLink:'https://amazones.fit/'
+        },
         {
-            id: 6,
+            id: 9,
             projectTitle: 'Matasuke',
             projectDesc: 'Developed key sections of the Matasuke landing page, a housing-focused website promoting exterior wall tile solutions designed to reduce long-term home maintenance costs. Focused on improving layout flow, content readability, and presenting the benefits of the service clearly to potential homeowners.',
             projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'CONTACT F7'],
@@ -105,21 +113,14 @@ const WebDevelopment = () => {
             projectLink: 'https://www.matasuke.co.jp/lp-2/'
         },
          {
-            id: 7,
+            id: 10,
             projectTitle: 'Share Chirashi',
             projectDesc: 'Contributed to the development of the Share Chirashi website, a digital flyer platform designed to simplify the creation and distribution of promotional materials.',
             projectTechStacks: ['HTML', 'CSS', 'JS', 'PHP', 'WORDPRESS', 'ACF', 'CONTACT F7'],
             projectImage: ImgShareChirashi,
             projectLink: 'https://share-chirashi.com/'
         },
-         {
-            id:8,
-            projectTitle:'Amazones',
-            projectDesc:'Collaborated on the development of the Front End User Interface of Amazones, a women only gym fitness platform designed to provide a safe, empowering and accessible space for women to achieve their health goals.',
-            projectTechStacks:['HTML', 'CSS', 'JS',],
-            projectImage:ImgAmazones,
-            projectLink:'https://neeeeeythan.github.io/amazones/'
-        }
+        
     ]
   return (
     <section className = 'flex flex-col gap-[10px] h-full'>

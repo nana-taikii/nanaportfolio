@@ -40,7 +40,24 @@ import ImgUIUXLecsBanner from "../../../assets/images/img_uiux_lecs_banner.png";
 import ImgUIUXLecsShot from "../../../assets/images/img_uiux_lecs_shot.webp";
 import ImgUIUXLecs from "../../../assets/images/img_uiux_lecs.webp";
 
+import ImgUIUXBitesBySwedenBanner from "../../../assets/images/img_uiux_bitesBySweden_banner.png";
+import ImgUIUXBitesBySwedenShot from "../../../assets/images/img_uiux_bitesBySweden_shot.png";
+import ImgUIUXBitesBySweden from "../../../assets/images/img_uiux_bitesBySweden.webp";
+
 export const uiuxProjects = [
+   {
+    id: "bitesBySweden",
+    projectTitle: "Bites By Sweden",
+    projectDesc: "Scandinavian candy crafted with love, purity and joy",
+    projectImage: ImgUIUXBitesBySwedenBanner,
+    projectImageBanner: ImgUIUXBitesBySwedenShot,
+    projectOverview:
+      "Designed a modern brand website for Bites By Sweden, combining Scandinavian-inspired aesthetics with playful visual elements to create an engaging candy shopping experience. The website highlights the brand story, product collection, and best sellers while maintaining a clean and approachable interface.",
+    projectDesignedFor: "Candy Brands, Online Shoppers and Candy Lovers",
+    projectRole: "Designer",
+    projectTools: ["Figma", "Canva"],
+    projectMockUp: ImgUIUXBitesBySweden,
+  },
   {
     id: "Lecs",
     projectTitle: "LECS",
