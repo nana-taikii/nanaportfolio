@@ -134,6 +134,7 @@ const Panel: React.FC<PanelProps> = React.memo(({ panel, row, onClick }) => (
       background: panel.bg,
       flex: panel.span === 2 ? "2" : "1",
       minWidth: panel.span === 2 ? "200px" : "100px",
+      minHeight:'400px'
     }}
     onClick={() => onClick(panel)}
   >
