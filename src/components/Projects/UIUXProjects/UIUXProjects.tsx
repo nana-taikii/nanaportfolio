@@ -20,6 +20,7 @@ const UIUXProjects = () => {
             ">
         {uiuxProjects.map((project, index) => (
             <div key = {project.id} className={`
+            group
             rounded-[8px]
             overflow-hidden
             bg-[var(--main-white)]
@@ -28,10 +29,12 @@ const UIUXProjects = () => {
             max-[950px]:w-full
             max-[650px]:max-w-full
             animation-fadeUp
+            transition-all duration-300 ease-in-out
+            hover:shadow-lg
             `} 
             style = {{animationDelay:`${index * 0.1}s`}}
             onClick = {() => handleOpenUIUXProject(project.id)}>
-                <img src={project.projectImage} alt={project.projectDesc} className ='w-full'/>
+                <img src={project.projectImage} alt={project.projectDesc} className ='w-full transition-all duration-300 ease-in-out group-hover:scale-105'/>
                 <div className = 'py-[15px] px-[10px] flex flex-col gap-[5px]'>
                     <Typography type = 'h6' className = 'text-[var(--text-dark)] text-[14px] font-bold'>{project.projectTitle}</Typography>
                     <Typography type = 'body' className = 'text-[var(--text-secondary)] text-[12px] font-bold'>{project.projectDesc}</Typography>

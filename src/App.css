@@ -132,8 +132,12 @@
 
  .c-icon__link{
    @apply rounded-[8px] bg-[var(--main-gray)] py-[9px] px-[12px] h-full  ;
+   transition:all 0.3s ease-in-out
 }
 
+.c-icon__link:hover{
+  background-color:#dfdfdf
+}
 .c-section-title{
   @apply text-[16px] font-bold
 }

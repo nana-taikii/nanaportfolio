@@ -4,6 +4,7 @@ import UIUXProjects from '../Projects/UIUXProjects/UIUXProjects'
 import WebDevelopment from '../Projects/WebDevelopment/WebDevelopment'
 import GraphicDesigns from '../Projects/GraphicDesigns/GraphicDesigns'
 import { useNavigate, useSearchParams } from 'react-router'
+import Arts from '../Projects/Arts/Arts'
 
 
 const customTabStyles = tv({
@@ -51,6 +52,9 @@ const NavTabs = () => {
                  <Tabs.Tab key = 'graphicDesigns' id = 'graphicDesigns' className={customTabStyles({intent:'default'})} onClick = {() => handleOpenProjectTabs('graphicDesigns')}>
                     Graphic Designs
                 </Tabs.Tab>
+                 <Tabs.Tab key = 'arts' id = 'arts' className={customTabStyles({intent:'default'})} onClick = {() => handleOpenProjectTabs('arts')}>
+                    Arts
+                </Tabs.Tab>
                  {/* <Tabs.Tab id = 'arts' className={customTabStyles({intent:'default'})}>
                     Arts
                 </Tabs.Tab> */}
@@ -64,6 +68,9 @@ const NavTabs = () => {
         </Tabs.Panel>
         <Tabs.Panel id = 'graphicDesigns' className = 'w-full p-0 max-w-[1100px] mx-auto h-full' >
            <GraphicDesigns/>
+        </Tabs.Panel>
+        <Tabs.Panel id = 'arts' className = 'w-full  mx-auto h-full' >
+           <Arts/>
         </Tabs.Panel>
          {/* <Tabs.Panel id = 'arts'>
             <p>tab3</p>

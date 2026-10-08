@@ -64,7 +64,7 @@ const ProfileDetails = () => {
           </Typography>
         </div>
         <ButtonGroup className="gap-[8px] shrink-0 w-full justify-start">
-          <Button className={`c-dark-btn w-[fit-content] flex-start`} onClick = {() => window.location.href = 'mailto:donnahopebersabebanzuela@gmail.com'}>
+          <Button className={`c-dark-btn w-[fit-content] flex-start transition-all duration-0.3s ease-in-out hover:opacity-[0.9]`} onClick = {() => window.location.href = 'mailto:donnahopebersabebanzuela@gmail.com'}>
             message
             <img src={IconSend} />
           </Button>

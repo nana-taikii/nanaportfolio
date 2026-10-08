@@ -14,7 +14,7 @@ const Navbar = ({ buttonFunction }: { buttonFunction: () => void }) => {
         className={`${customButtonIconStyles({
           intent: "default",
           disabled: false,
-        })} max-[767px]:hidden`}
+        })} max-[767px]:hidden c-icon__link !ml-[10px]`}
         onClick={buttonFunction}
       >
         <img src={IconMenu} />
