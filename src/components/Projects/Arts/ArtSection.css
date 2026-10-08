@@ -392,8 +392,9 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
+  line-height: 1;
+  padding: 0 0 5px 0;   
 }
-
 .c-arts__nav-btn:hover {
   background: rgba(0, 0, 0, 0.65);
 }
