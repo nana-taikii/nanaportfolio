@@ -72,26 +72,26 @@ if (typeof window !== "undefined") {
 }
 
 const panels: Panel[] = [
-  { id: 1, row: 1, span: 1, bg: "#F8F2FB", label: "Cat In Lavender", desc: "Girl with glasses", img: ImgCatInLavender },
-  { id: 1, row: 1, span: 1, bg: "#f0f0d8", label: "Fish Girl", desc: "Girl with glasses", img: ImgFishGirl },
-  { id: 1, row: 1, span: 1, bg: "#e8d8c0", label: "Cat Nana", desc: "Girl with glasses", img: ImgCatNana },
-  { id: 1, row: 2, span: 1, bg: "#f0f5e8", label: "Girl In Blue", desc: "Girl with glasses", img: ImgGirlInBlue },
-  { id: 1, row: 2, span: 1, bg: "#e8d5c4", label: "Us", desc: "Girl with glasses", img: Art1 },
-  { id: 2, row: 3, span: 1, bg: "#d4e8d4", label: "Ice Cream Date", desc: "あなたとアイスクリーム", img: Art2 },
-  { id: 3, row: 3, span: 1, bg: "#f5f0e8", label: "Neko", desc: "Fluffy rabbit", img: Art3 },
-  { id: 4, row: 3, span: 2, bg: "#f5e8d0", label: "Happy Day", desc: "幸せな一日", img: Art4 },
-  { id: 5, row: 4, span: 1, bg: "#e8d5c4", label: "Black Cat", desc: "Mysterious cat", img: Art5 },
-  { id: 6, row: 4, span: 1, bg: "#d0e8f5", label: "Greenwhich", desc: "Child eating crackers", img: Art6 },
-  { id: 7, row: 5, span: 1, bg: "#e8d4d0", label: "The Flower", desc: "You found out I'm in love with someone not you", img: Art7 },
-  { id: 8, row: 5, span: 1, bg: "#e0dce8", label: "Stare", desc: "Soft gaze", img: Art8 },
-  { id: 9, row: 5, span: 1, bg: "#f0f0d8", label: "Sunflower Garden", desc: "Sunflowers and a little bird", img: Art9 },
-  { id: 10, row: 6, span: 1, bg: "#f0e8e8", label: "Mcdo", desc: "Dark hair with glasses", img: Art10 },
-  { id: 11, row: 6, span: 1, bg: "#e0e8f0", label: "Noodles Mood", desc: "Warm smile", img: Art11 },
-  { id: 12, row: 7, span: 2, bg: "#f5e8c8", label: "3 Friends", desc: "日本の食べ物屋台", img: Art12 },
-  { id: 13, row: 7, span: 1, bg: "#e8d8c0", label: "Starry Night", desc: "Close-up animal friends", img: Art13 },
-  { id: 14, row: 7, span: 1, bg: "#e8d5c4", label: "Duck & Blossoms", desc: "Fantasy creature", img: Art14 },
-  { id: 15, row: 8, span: 1, bg: "#f0f5e8", label: "Cat in the window", desc: "Cherry blossom scene", img: Art15 },
-  { id: 16, row: 8, span: 1, bg: "#e8e4e0", label: "Us in Cat", desc: "Peaceful white cat", img: Art16 },
+  { id: 1,  row: 1, span: 1, bg: "#F8F2FB", label: "Cat In Lavender",   desc: "Girl with glasses", img: ImgCatInLavender },
+  { id: 2,  row: 1, span: 1, bg: "#f0f0d8", label: "Fish Girl",         desc: "Girl with glasses", img: ImgFishGirl },
+  { id: 3,  row: 1, span: 1, bg: "#e8d8c0", label: "Cat Nana",          desc: "Girl with glasses", img: ImgCatNana },
+  { id: 4,  row: 2, span: 1, bg: "#f0f5e8", label: "Girl In Blue",      desc: "Girl with glasses", img: ImgGirlInBlue },
+  { id: 5,  row: 2, span: 1, bg: "#e8d5c4", label: "Us",                desc: "Girl with glasses", img: Art1 },
+  { id: 6,  row: 3, span: 1, bg: "#d4e8d4", label: "Ice Cream Date",    desc: "あなたとアイスクリーム", img: Art2 },
+  { id: 7,  row: 3, span: 1, bg: "#f5f0e8", label: "Neko",              desc: "Fluffy rabbit", img: Art3 },
+  { id: 8,  row: 3, span: 2, bg: "#f5e8d0", label: "Happy Day",         desc: "幸せな一日", img: Art4 },
+  { id: 9,  row: 4, span: 1, bg: "#e8d5c4", label: "Black Cat",         desc: "Mysterious cat", img: Art5 },
+  { id: 10, row: 4, span: 1, bg: "#d0e8f5", label: "Greenwhich",        desc: "Child eating crackers", img: Art6 },
+  { id: 11, row: 5, span: 1, bg: "#e8d4d0", label: "The Flower",        desc: "You found out I'm in love with someone not you", img: Art7 },
+  { id: 12, row: 5, span: 1, bg: "#e0dce8", label: "Stare",             desc: "Soft gaze", img: Art8 },
+  { id: 13, row: 5, span: 1, bg: "#f0f0d8", label: "Sunflower Garden",  desc: "Sunflowers and a little bird", img: Art9 },
+  { id: 14, row: 6, span: 1, bg: "#f0e8e8", label: "Mcdo",              desc: "Dark hair with glasses", img: Art10 },
+  { id: 15, row: 6, span: 1, bg: "#e0e8f0", label: "Noodles Mood",      desc: "Warm smile", img: Art11 },
+  { id: 16, row: 7, span: 2, bg: "#f5e8c8", label: "3 Friends",         desc: "日本の食べ物屋台", img: Art12 },
+  { id: 17, row: 7, span: 1, bg: "#e8d8c0", label: "Starry Night",      desc: "Close-up animal friends", img: Art13 },
+  { id: 18, row: 7, span: 1, bg: "#e8d5c4", label: "Duck & Blossoms",   desc: "Fantasy creature", img: Art14 },
+  { id: 19, row: 8, span: 1, bg: "#f0f5e8", label: "Cat in the window", desc: "Cherry blossom scene", img: Art15 },
+  { id: 20, row: 8, span: 1, bg: "#e8e4e0", label: "Us in Cat",         desc: "Peaceful white cat", img: Art16 },
 ];
 
 const PanelMedia: React.FC<PanelMediaProps> = React.memo(
@@ -177,7 +177,7 @@ const Arts: React.FC = () => {
 
   const panelsByRow = useMemo<Record<number, Panel[]>>(() => {
     const rows: Record<number, Panel[]> = {};
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= panels.length; i++) {
       rows[i] = panels.filter((p) => p.row === i);
     }
     return rows;
@@ -295,7 +295,7 @@ const Arts: React.FC = () => {
     <section id="arts" className="c-arts-section">
       <div className="c-arts__root">
         <div className="c-arts__flex-container animation-fadeUp">
-          {[1, 2, 3, 4, 5, 6].map((row) => (
+          {[1, 2, 3, 4, 5, 6, 7, 8].map((row) => (
             <Row
               key={row}
               row={row}
