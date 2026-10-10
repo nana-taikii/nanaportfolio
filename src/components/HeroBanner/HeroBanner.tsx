@@ -33,7 +33,7 @@ const HeroBanner = () => {
         absolute top-1/2 -translate-y-1/2 left-[40px] flex flex-col gap-[15px] max-w-[440px]
         max-[768px]:max-w-[258px]
         max-[767px]:top-[130px]
-        max-[550px]:top-[66px]
+        max-[550px]:top-[70px]
         max-[768px]:left-[20px]
         max-[768px]:gap-[10px]
         "
