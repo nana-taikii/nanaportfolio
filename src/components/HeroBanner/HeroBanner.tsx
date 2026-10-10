@@ -24,7 +24,7 @@ const HeroBanner = () => {
           <img
             src={ImgCatHeroBanner}
             width="100%"
-            className="object-cover  object-left scale-x-[-1] max-[768px]:h-[auto] h-[300px]"
+            className="object-cover  object-left scale-x-[-1] max-[768px]:h-[auto] max-[768px]:min-h-[250px]  h-[300px]"
           />
         </picture>
 

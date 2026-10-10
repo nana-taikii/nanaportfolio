@@ -149,7 +149,7 @@ const WebDevelopment = () => {
                   </a>
                 )}
             </div>
-            <img src = {project.projectImage} alt = {project.projectTitle} className = 'object-cover object-center w-[480px] h-[251px] max-w-[480px] rounded-[10px] max-[1000px]:max-w-full' loading = 'lazy'/>
+            <img src = {project.projectImage} alt = {project.projectTitle} className = 'object-cover object-center w-[480px] h-[251px] max-w-[480px] rounded-[10px] max-[1000px]:max-w-full max-[1000px]:w-full max-[1000px]:h-[auto]' loading = 'lazy'/>
         </div>
 
       ))}
