@@ -24,7 +24,7 @@ const HeroBanner = () => {
           <img
             src={ImgCatHeroBanner}
             width="100%"
-            className="object-cover  object-left scale-x-[-1] max-[768px]:h-[auto] max-[768px]:min-h-[250px]  h-[300px]"
+            className="object-cover  object-left scale-x-[-1] max-[768px]:h-[auto] max-[768px]:min-h-[250px]  min-h-[300px]"
           />
         </picture>
 
@@ -32,7 +32,7 @@ const HeroBanner = () => {
           className="
         absolute top-1/2 -translate-y-1/2 left-[40px] flex flex-col gap-[15px] max-w-[440px]
         max-[768px]:max-w-[258px]
-        max-[767px]:top-[130px]
+        max-[770px]:top-[130px]
         max-[550px]:top-[70px]
         max-[768px]:left-[20px]
         max-[768px]:gap-[10px]
